@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: Decision Risk Analytics
+image: /img/Thialf-Kees.jpg
 heading: Decision Risk Analytics
 subheading: confidence through insight
 mainpitch:

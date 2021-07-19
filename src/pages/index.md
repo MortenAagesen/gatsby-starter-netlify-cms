@@ -5,7 +5,7 @@ image: /img/Thialf-Kees.jpg
 heading: Decision Risk Analytics
 subheading: confidence through insight
 mainpitch:
-  title: Why Kaldi
+  title: What we do
   description: >
     Decision Risk Analytics is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans

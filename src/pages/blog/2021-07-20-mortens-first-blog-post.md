@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Mortens first blog post
-date: 2021-07-20:12:00.000Z
+date: 2021-07-20T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 description: My first blog post.

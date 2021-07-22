@@ -31,7 +31,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 300px
+  height: 100vw
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +44,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 1000px
+    height: 30vw
     background-size: cover
     background-position: bottom
     display: flex
@@ -69,10 +69,12 @@ $black: #2b2523
     transition: all .15s ease
 
 .margin-top-0
-  margin-top: 0 !important
+  margin-top: 150 !important
 
 .navbar-item .icon
   color: $primary
+.navbar-item img
+  max-height: 2.75rem!important
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem

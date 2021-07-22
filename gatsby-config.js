@@ -1,12 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Website for Decision Risk Analytics',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'This repo contains code to develop a new website for Decision Risk Analytics using Gatsby and Netlify tools and services.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    // add theme-elements to enable sticky option /Morten
+    'gatsby-theme-elements',
+    // activate indentedSyntax to get rid of WEBPACK 98123 error /Morten
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        indentedSyntax: true
+      },
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
